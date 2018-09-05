@@ -12,5 +12,6 @@ export class AppComponent {
   constructor(public infoPaginaServices:InfoPaginaService, public productoServices:ProductoService){
 
   }
+
  
 }
