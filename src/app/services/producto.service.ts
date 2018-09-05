@@ -24,4 +24,8 @@ export class ProductoService {
     
   }
 
+  public cargarItem(id:string){
+    return this.http.get(`https://portafolioangular-7c3f3.firebaseio.com/productos/${id}.json`);
+  }
+
 }
