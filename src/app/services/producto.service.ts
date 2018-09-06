@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { ProductoInterface } from '../interface/producto-interface';
-import { resolve } from 'dns';
-import { reject } from 'q';
+
 
 
 @Injectable({
